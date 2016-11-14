@@ -7,7 +7,7 @@
 
 
 double SecToMilli = 1000;
-double ModelExposureWait = 4500*SecToMilli;
+double ModelExposureWait = 4.500*SecToMilli;
 double LayerThicknessMicrons = 100;
 
 int start(PrintBundle job, LiftMotor motor, Projector proj, ofstream &myFile)
